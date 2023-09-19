@@ -1,0 +1,44 @@
+/* FoundersPage.scss */
+
+.founders-page {
+  text-align: center;
+  padding: 20px;
+
+  .founders-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .founder-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    h3 {
+      margin: 10px 0;
+      font-size: 1.5rem;
+      color: black;
+      font-family: sans-serif;
+    }
+
+    p {
+      font-size: 1rem;
+      // color: #777;
+      color: black;
+      font-family: roboto;
+    }
+  }
+}
+
+/* Add more styles as needed */

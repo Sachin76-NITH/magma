@@ -1,0 +1,46 @@
+// LogoutPage.scss
+
+.logout-container {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    // min-height: 100vh;
+    height: 68vh;
+  }
+
+
+.logout-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .logout-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 400px; // Adjust the maximum width as needed for responsiveness
+    width: 90%;
+  }
+  
+  .logout-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    .logout-content {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

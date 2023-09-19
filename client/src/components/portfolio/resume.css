@@ -1,0 +1,24 @@
+.resu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.one{
+    display: flex;
+}
+.imga{
+    display: flex;
+   margin-left: 40px;
+   border-radius: 40px;
+    border-top-right-radius: 50px;
+}
+
+.para{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+}

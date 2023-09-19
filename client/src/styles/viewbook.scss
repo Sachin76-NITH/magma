@@ -1,0 +1,65 @@
+/* Viewbook.css */
+
+.view-book-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .save-button,
+  .cancel-button,
+  .edit-button,
+  .delete-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 4px;
+  }
+  
+  .save-button:hover,
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-button:hover,
+  .delete-button:hover {
+    background-color: #dc3545;
+  }
+  

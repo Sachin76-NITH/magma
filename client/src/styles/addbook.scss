@@ -1,0 +1,42 @@
+// Addbook.scss
+
+.add-book-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 100%; /* Ensure the input fields take up the full width */
+      }
+    }
+
+    button.add-book-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%; /* Ensure the button takes up the full width */
+    }
+  }
+}

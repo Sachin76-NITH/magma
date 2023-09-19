@@ -1,0 +1,37 @@
+.login_body{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+    min-height: 64.5vh;
+}
+
+.magma_tagline{
+    width: 30vw;
+    margin-right: 50px;
+    
+    
+    h1{
+    //   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+    p{
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+         font-size: larger;
+         color: midnightblue;
+    }
+}
+.login_form {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  }
+  
+
+  .btn{
+    margin-top: 10px;
+  }

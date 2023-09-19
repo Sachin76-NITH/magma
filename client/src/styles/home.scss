@@ -1,0 +1,32 @@
+ 
+nav2{
+    .s{
+    h1{ display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        color: royalblue;
+        font-family: serif;
+}}
+.home2{padding-top: 2vh;
+    display: flex;
+ 
+>img{ display:flex;
+     padding-top: 7vh;
+     padding-bottom: 7vh;
+     padding-left: 5vw;
+     padding-right: 5vw;
+     height: 50vh;
+     width: 50vw;
+     border-radius: 46px;
+    
+}
+>p{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}}}
+
+
