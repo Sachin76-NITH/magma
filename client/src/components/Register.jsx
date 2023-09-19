@@ -25,7 +25,7 @@ function Register() {
         position:"bottom-right",
       })
 
-    async function submit(e){s
+    async function submit(e){
         e.preventDefault();
 
         try{
