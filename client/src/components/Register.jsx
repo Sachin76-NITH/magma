@@ -25,11 +25,11 @@ function Register() {
         position:"bottom-right",
       })
 
-    async function submit(e){
+    async function submit(e){s
         e.preventDefault();
 
         try{
-          const {data}=  await axios.post("http://localhost:3002/Register",{
+          const {data}=  await axios.post("https://lms-q7xj.vercel.app/Register",{
                 email,password
             })
 

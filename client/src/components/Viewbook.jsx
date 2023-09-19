@@ -14,7 +14,7 @@ function Viewbook() {
 
   useEffect(() => {
     // Fetch data from your API endpoint using Axios
-    axios.get("http://localhost:3002/view") // Replace with your actual API endpoint
+    axios.get("https://lms-q7xj.vercel.app/view") // Replace with your actual API endpoint
       .then((response) => {
         setBooks(response.data);
       })
@@ -37,7 +37,7 @@ function Viewbook() {
             
   
 
-      axios.delete(`http://localhost:3002/view/${book._id}`) // Replace with your delete endpoint
+      axios.delete(`https://lms-q7xj.vercel.app/view/${book._id}`) // Replace with your delete endpoint
         .then(() => {
           // Remove the book from the state
           setBooks((prevBooks) => prevBooks.filter((b) => b._id !== book._id));
@@ -56,7 +56,7 @@ function Viewbook() {
   const handleSaveEdit = (editedBook) => {
     // Send a PUT request to your API to update the book
     if(editedBook.email != getGlobalEmail()) return;
-    axios.put(`http://localhost:3002/view/${editedBook._id}`, editedBook) // Replace with your update endpoint
+    axios.put(`https://lms-q7xj.vercel.app/view/${editedBook._id}`, editedBook) // Replace with your update endpoint
       .then(() => {
         // Update the book in the state
         setBooks((prevBooks) =>
